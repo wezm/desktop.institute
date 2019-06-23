@@ -3,10 +3,18 @@
 {% block title %}{{ page.title }} - {{ config.title }}{% endblock %}
 
 {% block body %}
-<h1><a href="/" class="no-border">{{ config.title }}</a></h1>
+<h1 class="logo"><a href="/" class="no-border hover-underline">{{ config.title }}</a></h1>
+
+<nav>
+  <a href="/" class="no-border hover-underline">Home</a>
+  <span class="breadcrumb-sep">/</span>
+  <a href="/{{ page.components[0] }}" class="no-border hover-underline">Posts</a>
+</nav>
 
 <article id="{{page.slug }}">
-  <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+  <h2>
+    <a href="/{{ page.path }}">{{ page.title }}</a>
+  </h2>
   <time datetime="{{ page.date }}">{{ page.date | date(format="%d %B %Y") }}</time>
 
   <div class="post-body">

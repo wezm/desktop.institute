@@ -1,5 +1,6 @@
 $heading-margin: 0.25em 0 0.5em 0;
 $heading-family: "Cantarell", "Noto Sans", "Helvetica Neue", Helvetica, sans-serif;
+$link-color: hsl(204, 50.8%, 26.1%);
 
 html {
   background-color: whitesmoke;
@@ -9,7 +10,7 @@ body {
   margin:40px auto;
   max-width: 800px;
   line-height:1.6;
-  font-family: sans-serif;
+  font-family: "Lato", "Avenir Next", "Helvetica Neue", Helvetica, sans-serif;
   font-size:18px;
   color:#444;
   padding:0 10px;
@@ -50,15 +51,41 @@ a {
   text-decoration: underline;
 }
 a:link, a:visited {
-  color: #36454F;
+  color: $link-color;
 }
-figcaption {
+.hover-underline:hover {
+  border-bottom: 1px solid currentColor;
+}
+nav a:link, nav a:visited {
+  color: #666;
+}
+time {
+  font-weight: 500;
+}
+article {
+  h2,h3 {
+    a:link, a:visited {
+      color: currentColor;
+      text-decoration: none;
+      border-bottom: 2px solid currentColor;
+    }
+  }
+  h2 {
+    font-size: 2.5em;
+  }
+  h3 {
+    font-size: 2em;
+    font-weight: 300;
+  }
 }
 footer {
   color: #888;
   border-top: 1px solid #AAA;
   margin: 3em 0px 2em;
   clear: both;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 footer .copyright {
   font-size: 14px;
@@ -72,6 +99,20 @@ footer .copyright {
 }
 .text-center {
   text-align: center;
+}
+.text-smaller {
+  font-size: 0.5em;
+}
+
+.logo {
+  font-size: 1.75em;
+  a {
+    color: #555;
+  }
+}
+
+.breadcrumb-sep {
+  color: #999;
 }
 
 .tagline {
@@ -88,13 +129,13 @@ footer .copyright {
 
 
 .action-button {
-  background-color: #36454F;
+  background-color: $link-color;
   border-radius: 0.25em;
-  border: 2px solid #36454F;
+  border: 2px solid $link-color;
   color: white;
   display: inline-block;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 600;
   margin: 0.75em 0;
   padding: 0.5em 1em;
   text-decoration: none;
@@ -102,10 +143,10 @@ footer .copyright {
 }
 .action-button-ghost {
   background-color: initial;
-  color: #36454F;
+  color: $link-color;
 }
 .action-button-ghost:hover {
-  background-color: #36454F;
+  background-color: $link-color;
   color: white;
 }
 
@@ -122,8 +163,9 @@ footer .copyright {
 }
 
 .socials {
+
+  font-size: 14px;
   margin-top: 1em;
-  float: right;
 }
 .social-icon-wide {
   margin: 0 0.6em;
