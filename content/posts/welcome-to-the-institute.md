@@ -26,7 +26,7 @@ was my first attempt to defer writing any code and instead gather feedback and
 put the idea out there.
 
 This website is the continuation of this process. The roadmap for topics I'd
-like to cover is below. I'll update this roadmap as I go.
+like to cover is below. I'll add to, and update this roadmap as I go.
 
 * Document a baseline for what subsequent reviews will be measured against
   * Features
@@ -40,13 +40,15 @@ like to cover is below. I'll update this roadmap as I go.
   * Review of code size, architectural choices, bugs rates, sources of bugs
 * Review the state of Wayland window compositors
 
-Subscribe to the [RSS feed](/rss.xml), follow me on [Mastodon] or [Twitter]
-to follow along.
+Subscribe to the [RSS feed](/rss.xml) or follow me on [Mastodon] or [Twitter]
+to follow along. I'm publishing the [source of this site][src] to GitHub. If
+you spot a typo or broken link, feel free to raise and issue or send in a fix.
 
-[Awesome]: https://awesomewm.org/
 [A Tiling Desktop Environment]: https://bitcannon.net/post/pro-desktop/
-[PaperWM]: https://github.com/paperwm/PaperWM
+[Awesome]: https://awesomewm.org/
 [Kröhnkite]: https://github.com/esjeon/krohnkite
-[Sway]: https://github.com/swaywm/sway
 [Mastodon]: https://decentralised.social/wezm
+[PaperWM]: https://github.com/paperwm/PaperWM
+[src]: https://github.com/wezm/desktop.institute
+[Sway]: https://github.com/swaywm/sway
 [Twitter]: https://twitter.com/wezm
