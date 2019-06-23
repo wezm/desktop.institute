@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ section.title }} - {{ config.title }}{% endblock %}
+
+{% block body %}
+<h1><a href="/" class="no-border">{{ config.title }}</a></h1>
+<main class="{{ section.extra.main_class | default(value="") }}">
+  <h2>{{ section.title }}</h2>
+
+  {{ section.content | safe }}
+
+  {% for page in paginator.pages %}
+  <article id="{{page.slug }}">
+    <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+    <time datetime="{{ page.date }}">{{ page.date | date(format="%d %B %Y") }}</time>
+
+    <div class="post-body">
+      {{ page.summary | safe }}
+    </div>
+    <a href="{{page.permalink}}">Continue Reading →</a>
+  </article>
+  {% endfor %}
+</main>
+{% endblock %}

@@ -1,8 +1,14 @@
 # The URL the site will be built for
 base_url = "https://desktop.institute"
 
+title = "Desktop Institute"
+
+description = "Documenting the journey of researching a better desktop environment."
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
+
+generate_rss = true
 
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola

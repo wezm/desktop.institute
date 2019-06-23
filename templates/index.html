@@ -1,13 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ section.title }}</title>
-  <link rel="stylesheet" href="/screen.css" type="text/css" charset="utf-8" />
-</head>
-<body>
-  {{ section.content | safe }}
-</body>
-</html>
+{% extends "layout.html" %}
+{% block title %}{{ config.title }}{% endblock %}
 
+{% block body %}
+<main class="{{ section.extra.main_class | default(value="") }}">
+  <h1>{{ section.title }}</h1>
+
+  <div class="text-center">
+    <div class="tagline">Researching a better desktop environment.</div>
+
+    <figure class="desktop-diagram">
+      <img src="/images/desktop.svg" alt="Diagram of a typical stacking desktop environment" />
+      <figcaption>Can we do better?</figcaption>
+    </figure>
+
+    <a class="action-button action-button-ghost" href="/posts/">Read the Posts</a>
+  </div>
+
+  {{ section.content | safe }}
+</main>
+{% endblock %}

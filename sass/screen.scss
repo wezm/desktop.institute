@@ -1,25 +1,133 @@
+$heading-margin: 0.25em 0 0.5em 0;
+$heading-family: "Cantarell", "Noto Sans", "Helvetica Neue", Helvetica, sans-serif;
+
 html {
   background-color: whitesmoke;
+  min-height: 100%;
 }
 body {
   margin:40px auto;
-  // max-width:650px;
+  max-width: 800px;
   line-height:1.6;
+  font-family: sans-serif;
   font-size:18px;
   color:#444;
   padding:0 10px;
-  font-family: "Cantarell", "Noto Sans", Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+h1,h2,h3 {
+  font-family: $heading-family;
+  margin: $heading-margin;
+  line-height: 1.2;
+}
+h1,h2 {
+  font-weight: 300;
+}
+h3 {
+  font-weight: 400;
+}
+main img {
+  max-width: 100%;
+}
+main.home {
+  h1 {
+    text-align: center;
+    font-size: 5em;
+    font-weight: 200;
+    line-height: 1.2;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h2,h3 {
+    font-weight: 300;
+  }
+}
+
+a {
+  text-decoration: underline;
+}
+a:link, a:visited {
+  color: #36454F;
+}
+figcaption {
+}
+footer {
+  color: #888;
+  border-top: 1px solid #AAA;
+  margin: 3em 0px 2em;
+  clear: both;
+}
+footer .copyright {
+  font-size: 14px;
+  margin-top: 1em;
+  display: block;
+}
+
+.no-border {
+  border: none;
+  text-decoration: none;
+}
+.text-center {
   text-align: center;
 }
-h1 {
-  font-size: 5em;
-  font-weight: 200;
-  line-height: 1.2;
-}
-h2 {
-  font-size: 2em;
-}
-h2,h3 {
+
+.tagline {
   line-height: 1.2;
   font-weight: 300;
+  font-size: 2em;
+  margin: $heading-margin;
+  font-family: $heading-family;
+}
+.desktop-diagram {
+  max-width: 640px;
+  margin: 4em auto 2em;
+}
+
+
+.action-button {
+  background-color: #36454F;
+  border-radius: 0.25em;
+  border: 2px solid #36454F;
+  color: white;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0.75em 0;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.action-button-ghost {
+  background-color: initial;
+  color: #36454F;
+}
+.action-button-ghost:hover {
+  background-color: #36454F;
+  color: white;
+}
+
+#zola-continue-reading {
+  margin: 0;
+}
+
+.footnote-definition {
+  font-size: smaller;
+}
+.footnote-definition-label {
+  float: left;
+  margin-right: 0.5em;
+}
+
+.socials {
+  margin-top: 1em;
+  float: right;
+}
+.social-icon-wide {
+  margin: 0 0.6em;
+}
+.social-icon {
+  margin: 0 0.5em;
 }
