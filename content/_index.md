@@ -21,7 +21,7 @@ positioning and layout of windows or, because they are fighting against the
 natural metaphor for the desktop never quite work right.
 
 Using a non-mainstream desktop environment opens up a wide variety of
-customisation but this this brings with it the responsibility of building the
+customisation but this brings with it the responsibility of building the
 rest of the environment yourself. Some revel in this, while others, like myself
 would like something that combines the just works nature of a full desktop
 environment with the control of a window manager environment.

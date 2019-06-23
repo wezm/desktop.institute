@@ -26,7 +26,7 @@ was my first attempt to defer writing any code and instead gather feedback and
 put the idea out there.
 
 This website is the continuation of this process. I'd like to continue researching
-what's out there, how it works, how easy is it to change, and so on. Eventually I
+what's out there, how it works, how easy it is to change, and so on. Eventually I
 expect one of the following outcomes:
 
 * I find a solution that meets all the requirements.
@@ -46,9 +46,9 @@ roadmap as I go.
   * KDE + alternate window manager
   * GNOME with PaperWM extension
 * Explore what it would take to alter existing environments
-  * Review of code size, architectural choices, bugs rates, sources of bugs
+  * Review of code size, architectural choices, sources and rate of bugs
 * Review the state of Wayland window compositors
-* More to come...
+* And more…
 
 Subscribe to the [RSS feed](/rss.xml) or follow me on [Mastodon] or [Twitter]
 to follow along. I'm publishing the [source of this site][src] to GitHub. If
