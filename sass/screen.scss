@@ -150,6 +150,20 @@ footer .copyright {
   color: white;
 }
 
+.sponsor {
+  background-color: hsl(349.1, 50%, 97%);
+  padding: 1em;
+  border-radius: 3px;
+
+  p {
+    margin: 0;
+  }
+
+  .action-button {
+    margin-top: 2em;
+  }
+}
+
 #zola-continue-reading {
   margin: 0;
 }
@@ -163,7 +177,6 @@ footer .copyright {
 }
 
 .socials {
-
   font-size: 14px;
   margin-top: 1em;
 }
