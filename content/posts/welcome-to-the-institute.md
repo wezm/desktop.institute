@@ -13,8 +13,8 @@ do with the site.
 <!-- more -->
 
 As a software developer I find myself wanting to rebuild everything. In theory
-I have the skill. In practice I don't have the time &mdash; even though I work 4
-days a week so as to dedicated a day for side projects. The most recent thing
+I have the skill. In practice I don't have the time &mdash; even though I work a
+4 day week so as to dedicate a day to side projects. The most recent thing
 I want to rebuild is the desktop shell. Specifically I'd like something with
 the it just works nature of GNOME or Mac OS with the tiling layouts and
 keyboard affordances of [Awesome].
@@ -42,7 +42,7 @@ like to cover is below. I'll add to, and update this roadmap as I go.
 
 Subscribe to the [RSS feed](/rss.xml) or follow me on [Mastodon] or [Twitter]
 to follow along. I'm publishing the [source of this site][src] to GitHub. If
-you spot a typo or broken link, feel free to raise and issue or send in a fix.
+you spot a typo or broken link, feel free to raise an issue or send in a fix.
 
 [A Tiling Desktop Environment]: https://bitcannon.net/post/pro-desktop/
 [Awesome]: https://awesomewm.org/
