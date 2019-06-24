@@ -18,4 +18,6 @@ highlight_code = true
 build_search_index = false
 
 [extra]
-# Put all your custom variables here
+author = "Wesley Moore"
+email = "wes@wezm.net"
+
