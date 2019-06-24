@@ -1,6 +1,9 @@
 +++
 title = "Welcome to the Institute"
 date = 2019-06-23T10:47:41+10:00
+
+[extra]
+updated = 2019-06-24T09:10:40+10:00
 +++
 
 Welcome to Desktop Institute. Since posting [A Tiling Desktop Environment] I've
@@ -45,6 +48,7 @@ roadmap as I go.
   * KDE + Tiling scripts such as Kröhnkite
   * KDE + alternate window manager
   * GNOME with PaperWM extension
+* A visual tour of graphical shells for inspiration
 * Explore what it would take to alter existing environments
   * Review of code size, architectural choices, sources and rate of bugs
 * Review the state of Wayland window compositors
