@@ -18,7 +18,14 @@ body {
   flex-direction: column;
   min-height: 100%;
 }
-h1,h2,h3 {
+pre, code {
+  font-family: "Pragmata Pro", "Pragmata Pro Mono", "Iosevka", "Consolas", monospace;
+  font-size: 16px;
+}
+pre {
+  padding: 0.5em 1em;
+}
+h1,h2,h3,h4 {
   font-family: $heading-family;
   margin: $heading-margin;
   line-height: 1.2;
@@ -70,6 +77,8 @@ nav a:link, nav a:visited {
   }
 }
 article {
+  margin-bottom: 3em;
+
   h2,h3 {
     a:link, a:visited {
       color: currentColor;
@@ -84,11 +93,27 @@ article {
     font-size: 2em;
     font-weight: 300;
   }
+  h4 {
+    font-size: 1.25em;
+    font-weight: 400;
+  }
+}
+img, canvas, iframe, video, svg {
+  max-width: 100%;
+  margin: 0 auto;
+}
+figure {
+  margin: 0 auto 1.5em;
+}
+figcaption {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
 }
 footer {
   color: #888;
   border-top: 1px solid #AAA;
-  margin: 3em 0px 2em;
+  margin: 1em 0px 2em;
   clear: both;
   display: flex;
   justify-content: space-between;
@@ -134,7 +159,6 @@ footer .copyright {
   margin: 4em auto 2em;
 }
 
-
 .action-button {
   background-color: $link-color;
   border-radius: 0.25em;
@@ -175,6 +199,10 @@ footer .copyright {
   margin: 0;
 }
 
+.post-body h3 {
+  margin-top: 1.5em;
+}
+
 .footnote-definition {
   font-size: smaller;
 }
@@ -194,12 +222,24 @@ footer .copyright {
   width: 33px;
   text-align: center;
 }
+.screenshot img {
+  border: 1px solid #666;
+}
 
 .small-caps {
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: 600;
+}
+
+.three-columns {
+  columns: 3;
+
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 
 .socials {
