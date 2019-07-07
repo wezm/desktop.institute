@@ -40,7 +40,7 @@ expect one of the following outcomes:
 The roadmap for topics I'd like to cover is below. I'll add to, and update this
 roadmap as I go.
 
-* Document a baseline for what subsequent reviews will be measured against:
+* [Document a baseline for what subsequent reviews will be measured against](@/posts/values-features-preferences/index.md):
   * Core values
   * Desired features
 * Review comments and suggestions on, A Tiling Desktop Environment:
