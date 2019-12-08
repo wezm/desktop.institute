@@ -241,7 +241,7 @@ manual intervention.
 
 #### More Than Linux
 
-Linux is the dominant the open source desktop. However, there is more than just
+Linux is the dominant open source desktop. However, there is more than just
 Linux out there and diversity helps. FreeBSD and [OpenBSD] both have GNOME
 available. I would like a desktop that runs on more than Linux.
 
